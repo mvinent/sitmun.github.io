@@ -9,3 +9,14 @@
 .mermaid {
     text-align: center;
 }
+
+/* Oculta la barra de desplazamiento de los menús laterales (se siguen pudiendo desplazar) */
+.md-sidebar .md-sidebar__scrollwrap,
+.md-sidebar .md-sidebar__scrollwrap:hover,
+.md-sidebar .md-sidebar__scrollwrap:focus-within {
+    scrollbar-width: none;
+}
+
+.md-sidebar .md-sidebar__scrollwrap::-webkit-scrollbar {
+    display: none;
+}

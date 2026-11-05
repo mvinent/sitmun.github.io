@@ -32,27 +32,27 @@ El objetivo de esta hoja de ruta es ofrecer una visión general del estado del p
 | de edición gráfica y        | de objetos geográficos y alfanuméricos, basada en servicios web estándard,  |                                  |
 | alfanumérica.               | con control de acceso de usuario, definición de permisos, que pueda ser     |                                  |
 | **APP SITMUN Edición**      | administrada desde el Administrador SITMUN 3, como un cliente más.          |                                  |
-|                             | [Ver detalles aquí.](roadmap/app-turismo.md)                                |                                  |
+|                             | [Ver detalles aquí.](propuestas/app-turismo.md)                             |                                  |
 |                             |                                                                             |                                  |
 +-----------------------------+-----------------------------------------------------------------------------+----------------------------------+
 | Aplicación SITMUN para      | Este proyecto busca dotar a la plataforma SITMUN de la capacidad de         | En desarrollo                    |
 | dispositivos móviles        | disponer de una aplicación turística para dispositivos móviles (Android e   | (inicio noviembre 2024)          |
 | orientada al turismo        | iOS) común para todos los territorios que usen SITMUN como plataforma       |                                  |
 | **APP Turismo**             | y cuyo contenido y funcionalidad pueda gestionarse desde el administrador   |                                  |
-|                             | SITMUN 3, como un cliente más. [Ver detalles aquí.](roadmap/app-turismo.md) |                                  |
-|                             |                                                                             |                                  |
+|                             | SITMUN 3, como un cliente más.                                              |                                  |
+|                             | [Ver detalles aquí.](propuestas/app-turismo.md)                             |                                  |
 +-----------------------------+-----------------------------------------------------------------------------+----------------------------------+
 | Mejora de la **página de**  | Mejorar la interficie de la ventana de login a los clientes SITMUN          | En desarrollo                    |
 | **acceso** a la plataforma  | disponibles para el usuario así como el dashboard para la selección de      | Análisis previo y propuesta      |
 | SITMUN                      | aplicación, territorio y configuración de opciones y datos de usuario.      | técnica de implementación.       |
-|                             | [Ver detalles](roadmap/mejora-ui-login-dashboard-cliente.md)                |                                  |
+|                             | [Ver detalles](propuestas/mejora-ui-login-dashboard-cliente.md)             |                                  |
 |                             |                                                                             |                                  |
 +-----------------------------+-----------------------------------------------------------------------------+----------------------------------+
 | **Creación dinámica**       | Posibilidad de generar un informe (report) de forma dinámica desde un       | En desarrollo                    |
 | **de informes**             | el cliente SITMUN, que haya sido previamente configurado en el              | Análisis previo y propuesta      |
 |                             | administrador SITMUN 3. Un informe se configura en SITMUN como una tarea    | técnica de implementación.       |
 |                             | que integra el resultado de otras tareas.                                   |                                  |
-|                             | [Ver detalles aquí](roadmap/informe.md)                                     |                                  |
+|                             | [Ver detalles aquí](propuestas/informe.md)                                  |                                  |
 |                             |                                                                             |                                  |
 +-----------------------------+-----------------------------------------------------------------------------+----------------------------------+
 
@@ -68,7 +68,7 @@ El objetivo de esta hoja de ruta es ofrecer una visión general del estado del p
 | **Más info**                         | Implementar en el cliente SITMUN 3 API SITNA la capacidad de interpretar y        | Alta              |
 |                                      | ejecutar tareas más info definidas como tal en el administrador SITMUN 3.         |                   |
 |                                      | Asimilando el funcionamiento al de los actuales clientes SITMUN 2.                |                   |
-|                                      | [Ver detalles aquí.](roadmap/mas-info-avanzado.md)                                |                   |
+|                                      | [Ver detalles aquí.](propuestas/mas-info-avanzado.md)                             |                   |
 +--------------------------------------+-----------------------------------------------------------------------------------+-------------------+
 | **Localizadores**                    | Implementar en el cliente SITMUN 3 API SITNA la capacidad de interpretar y        | Alta              |
 |                                      | ejecutar localizadores definidos como tareas en el administrador SITMUN 3.        |                   |

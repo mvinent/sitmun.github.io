@@ -265,4 +265,4 @@ Host: geoserveis.icgc.cat
 [api-de-autenticacion]: api.md#api-de-autenticacion
 [api-de-configuracion-y-autorizacion]: api.md#api-de-configuracion-y-autorizacion
 [api-de-proxy]: api.md#api-de-proxy
-[servicio-de-proxy]: design.md#servicio-de-proxy
+[servicio-de-proxy]: diseno.md#servicio-de-proxy

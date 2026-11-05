@@ -92,6 +92,6 @@ criptográfico ([bcrypt](https://es.wikipedia.org/wiki/Bcrypt)).
 
 - **Filtrado (JDBC)**: Modificador encargado de incluir filtros en la consulta.
 
-[api-de-autenticacion]: api.md#api-de-autenticacion
-[api-de-configuracion-y-autorizacion]: api.md#api-de-configuracion-y-autorizacion
-[api-de-administracion]: api.md#api-de-administracion
+[api-de-autenticacion]: ../arquitectura/api.md#api-de-autenticacion
+[api-de-configuracion-y-autorizacion]: ../arquitectura/api.md#api-de-configuracion-y-autorizacion
+[api-de-administracion]: ../arquitectura/api.md#api-de-administracion

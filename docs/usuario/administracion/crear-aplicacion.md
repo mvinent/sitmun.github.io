@@ -74,4 +74,4 @@ Una vez configurada y probada:
 
 ---
 
-Siguiente paso: [Personalización](personalizando.md)
+Siguiente paso: [Personalización](personalizacion.md)
