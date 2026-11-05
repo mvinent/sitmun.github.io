@@ -21,6 +21,15 @@
     display: none;
 }
 
+/* Listas de comprobación interactivas (ver js/checklists.js) */
+.md-typeset .task-list-control {
+    cursor: pointer;
+}
+
+.md-typeset .task-list-control:hover [type=checkbox]:not(:checked) + .task-list-indicator::before {
+    background-color: var(--md-default-fg-color--light);
+}
+
 /* Botones «Anterior / Siguiente» del pie: tarjetas con la flecha en un círculo */
 .md-footer__inner {
     gap: .8rem;
