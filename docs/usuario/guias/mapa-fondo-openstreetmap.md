@@ -7,11 +7,10 @@ Al terminar, los usuarios del visor verán **OpenStreetMap** en la lista de mapa
 !!! info "Cambio de sistema de referencia"
     Los mapas de OpenStreetMap solo existen en el sistema de referencia **EPSG:3857** (Web Mercator). Si la aplicación usa otro (por ejemplo, EPSG:25831), al elegir OpenStreetMap el visor muestra el aviso *Mapa de fondo no compatible* y propone cambiar el sistema de referencia del mapa. El usuario elige **EPSG:3857** y el mapa se muestra. Al volver a un mapa de fondo de la aplicación, el visor recupera su sistema de referencia original.
 
-## Cómo funciona
+??? info "Cómo funciona (detalle técnico)"
+    SITMUN admite servicios WMS, WMTS y WFS. OpenStreetMap publica su mapa en otro formato (teselas XYZ), que SITMUN no admite directamente.
 
-SITMUN admite servicios WMS, WMTS y WFS. OpenStreetMap publica su mapa en otro formato (teselas XYZ), que SITMUN no admite directamente.
-
-El visor de SITMUN incluye un archivo que describe el mapa de OpenStreetMap como si fuera un servicio WMTS. Basta con dar de alta un servicio WMTS que apunte a ese archivo. Las teselas del mapa se descargan de los servidores de OpenStreetMap.
+    El visor de SITMUN incluye un archivo que describe el mapa de OpenStreetMap como si fuera un servicio WMTS. Basta con dar de alta un servicio WMTS que apunte a ese archivo. Las teselas del mapa se descargan de los servidores de OpenStreetMap.
 
 ## Antes de empezar
 

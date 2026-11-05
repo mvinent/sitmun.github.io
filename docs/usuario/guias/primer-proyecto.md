@@ -1,9 +1,5 @@
 # De cero al primer proyecto
 
-!!! warning "Guía en revisión"
-    Esta guía se ha escrito a partir del código del administrador y todavía no se ha probado paso a paso.
-    Si algo no coincide con lo que ves en pantalla, notifícalo en <https://github.com/sitmun/community/issues/new>.
-
 Al terminar tendrás un visor público funcionando: mapa de fondo, capas en un árbol y herramientas básicas, accesible para cualquier persona.
 
 Esta guía es para quien entra por primera vez en el administrador. No hace falta programar, pero sí saber qué es un WMS.
