@@ -50,8 +50,8 @@ plugins:
         getting-started/que-es.md: que-es-sitmun/descripcion/index.md
         getting-started/requisitos.md: usuario/primeros-pasos/requisitos.md
         getting-started/instalacion.md: usuario/primeros-pasos/instalacion.md
-        getting-started/creando.md: usuario/administracion/crear-aplicacion.md
-        getting-started/personalizando.md: usuario/administracion/personalizacion.md
+        getting-started/creando.md: usuario/guias/primer-proyecto.md
+        getting-started/personalizando.md: usuario/guias/personalizacion.md
         features-client.md: que-es-sitmun/descripcion/clientes.md
         features-server.md: que-es-sitmun/descripcion/servidores.md
         roadmap.md: que-es-sitmun/hoja-de-ruta/index.md
@@ -99,11 +99,10 @@ nav:
           - Primera instalación: usuario/primeros-pasos/instalacion.md
           - usuario/primeros-pasos/configuracion.md
           - usuario/primeros-pasos/solucion-problemas.md
-      - Administración:
-          - usuario/administracion/crear-aplicacion.md
-          - usuario/administracion/personalizacion.md
-          - Mapas de fondo:
-              - Añadir OpenStreetMap: usuario/administracion/mapas-fondo/openstreetmap.md
+      - Guías:
+          - De cero al primer proyecto: usuario/guias/primer-proyecto.md
+          - Añadir OpenStreetMap como mapa de fondo: usuario/guias/mapa-fondo-openstreetmap.md
+          - usuario/guias/personalizacion.md
   - Manual de desarrollador:
       - Cómo contribuir: desarrollador/contribuir.md
   - La red SITMUN:

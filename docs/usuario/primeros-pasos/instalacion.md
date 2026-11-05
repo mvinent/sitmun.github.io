@@ -237,4 +237,4 @@
     
 ---
 
-Siguiente paso: [Creando una aplicación](../administracion/crear-aplicacion.md)
+Siguiente paso: [De cero al primer proyecto](../guias/primer-proyecto.md)

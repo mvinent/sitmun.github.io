@@ -27,7 +27,7 @@ Comprueba que el archivo de OpenStreetMap está disponible. Abre en el navegador
 https://ejemplo.org/sitmun/viewer/assets/js/api-sitna/wmts/osm/1.0.0/WMTSCapabilities.xml
 ```
 
-Debe mostrarse un documento XML que empieza por `<Capabilities`. Esta es la **URL del servicio** que usarás en el paso 1.
+Debe mostrarse un documento XML que empieza por `<Capabilities`. Esta dirección es el **Endpoint del servicio** que usarás en el paso 1.
 
 !!! example "Instalación local con Docker"
     En una instalación local la dirección es
@@ -40,9 +40,9 @@ Debe mostrarse un documento XML que empieza por `<Capabilities`. Esta es la **UR
 
     | Campo | Valor |
     |---|---|
-    | **Nombre** | `OpenStreetMap` (solo lo ven los administradores) |
+    | **Título del servicio** | `OpenStreetMap` (solo lo ven los administradores) |
     | **Tipo de servicio** | `WMTS` |
-    | **URL del servicio** | La dirección del archivo que has comprobado antes |
+    | **Endpoint del servicio** | La dirección del archivo que has comprobado antes |
     | **CRS soportados** | `EPSG:3857` |
     | **Usar proxy SITMUN** | Desactivado |
     | **Método de autenticación** | Ninguno |
@@ -112,7 +112,7 @@ El orden de los mapas de fondo de cada aplicación se cambia en la propia aplica
 | Aparece en la lista, pero el mapa queda en blanco | Los parámetros `matrixSet` y `format` del servicio (paso 1). El campo **Capa o capas del servicio utilizadas** de la capa es `osm`, en minúsculas (paso 2). |
 | Aparece con otro nombre | El nombre que se muestra es el de la **capa** (paso 2). |
 | Aparece sin miniatura | La dirección del campo **Imagen** del mapa de fondo (paso 3). |
-| La **URL del servicio** no abre el archivo XML | La dirección del visor. Prueba primero la dirección del visor sola. |
+| El **Endpoint del servicio** no abre el archivo XML | La dirección del visor. Prueba primero la dirección del visor sola. |
 
 ## Condiciones de uso de OpenStreetMap
 
