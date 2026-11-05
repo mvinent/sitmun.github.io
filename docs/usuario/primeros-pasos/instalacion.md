@@ -237,4 +237,4 @@
     
 ---
 
-Siguiente paso: [De cero al primer proyecto](../guias/primer-proyecto.md)
+Siguiente paso: [De cero al primer proyecto](../guias/primer-proyecto/index.md)
