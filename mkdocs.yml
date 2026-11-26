@@ -53,7 +53,7 @@ plugins:
         getting-started/instalacion.md: usuario/instalacion/instalacion.md
         getting-started/creando.md: usuario/guias/primer-proyecto/index.md
         getting-started/personalizando.md: usuario/guias/primer-proyecto/index.md
-        features-client.md: que-es-sitmun/plataforma/clientes.md
+        features-client.md: que-es-sitmun/plataforma/clientes/index.md
         features-server.md: que-es-sitmun/plataforma/arquitectura/api.md
         roadmap.md: que-es-sitmun/plataforma/hoja-de-ruta/index.md
         roadmap/mas-info-avanzado.md: que-es-sitmun/plataforma/hoja-de-ruta/propuestas/mas-info-avanzado.md
@@ -84,7 +84,12 @@ nav:
           - Contacto: que-es-sitmun/red-sitmun/contacto.md
       - Plataforma SITMUN:
           - que-es-sitmun/plataforma/index.md
-          - Clientes: que-es-sitmun/plataforma/clientes.md
+          - Clientes:
+              - que-es-sitmun/plataforma/clientes/index.md
+              - Cliente de administración: que-es-sitmun/plataforma/clientes/administrador.md
+              - Cliente web (API SITNA): que-es-sitmun/plataforma/clientes/visor-web.md
+              - App móvil de edición: que-es-sitmun/plataforma/clientes/app-edicion.md
+              - App turística: que-es-sitmun/plataforma/clientes/app-turistica.md
           - Arquitectura:
               - que-es-sitmun/plataforma/arquitectura/index.md
               - API: que-es-sitmun/plataforma/arquitectura/api.md
